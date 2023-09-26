@@ -1,121 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    div{
-      width: 600px;
-      margin-bottom: 20px;
-      padding-bottom: 15px;
-    }
-    .todasQuestoes{
-      border: 1px solid black;
-    }
-    label{
-      display: block;
-    }
-    input{
-      display: inline-block;
-      margin-right: 10px;
-    }
-    li{
-      list-style: none;
-    }
-    .questoes{
-      font-size: 18px;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
-  <form action="./agradecimento.html">
-    <div class="todasQuestoes">
-    <ul>
-  <div id="q1">
-    <label for="q1a" class="questoes">Qual é o resultado da seguinte operação: 8 + 4 x 2?</label>
-    <li><input type="radio" name="q1">16</li>
-    <li><input type="radio" name="q1">10</li>
-    <li><input type="radio" name="q1">18</li>
-    <li><input type="radio" name="q1">24</li>
-    <li><input type="radio" name="q1">12</li>
-  </div>
-  <div id="q2">
-    <label for="q2" class="questoes">Qual é o dobro de 7?</label>
-    <li><input type="radio" name="q2">10
-    <li><input type="radio" name="q2">14
-    <li><input type="radio" name="q2">21
-    <li><input type="radio" name="q2">28
-    <li><input type="radio" name="q2">35
-  </div>
-  <div id="q3">
-    <label for="q3" class="questoes">Qual é a raiz quadrada de 81?</label>
-    <li><input type="radio" name="q3">7</li>
-    <li><input type="radio" name="q3">8</li>
-    <li><input type="radio" name="q3">9</li>
-    <li><input type="radio" name="q3">6</li>
-    <li><input type="radio" name="q3">10</li>
-  </div>
-  <div id="q4">
-    <label for="q4" class="questoes">Qual é o resultado da seguinte operação: 15 - 3 ÷ 3?</label>
-    <li><input type="radio" name="q4">6</li>
-    <li><input type="radio" name="q4">9</li>
-    <li><input type="radio" name="q4">12</li>
-    <li><input type="radio" name="q4">15</li>
-    <li><input type="radio" name="q4">3</li>
-  </div>
-  <div id="q5">
-    <label for="q5" class="questoes">Qual é o próximo número na sequência: 2, 5, 8, 11, __?</label>
-    <li><input type="radio" name="q5">14</li>
-    <li><input type="radio" name="q5">15</li>
-    <li><input type="radio" name="q5">12</li>
-    <li><input type="radio" name="q5">13</li>
-    <li><input type="radio" name="q5">17</li>
-  </div>
-  <div id="q6">
-    <label for="q6" class="questoes">Qual é o plural de "gato"?</label>
-    <li><input type="radio" name="q6">gato</li>
-    <li><input type="radio" name="q6">gatos</li>
-    <li><input type="radio" name="q6">gata</li>
-    <li><input type="radio" name="q6">gatas</li>
-    <li><input type="radio" name="q6">gatões</li>
-  </div>
-  <div id="q7">
-    <label for="q7" class="questoes">Qual é o plural de "peixe"?</label>
-    <li><input type="radio" name="q7">peixe</li>
-    <li><input type="radio" name="q7">peixes</li>
-    <li><input type="radio" name="q7">peixinhos</li>
-    <li><input type="radio" name="q7">peixões</li>
-    <li><input type="radio" name="q7">peixis</li>
-  </div>
-  <div id="q8">
-    <label for="q8" class="questoes">Qual é o antônimo de "alegre"?</label>
-    <li><input type="radio" name="q8">triste</li> 
-    <li><input type="radio" name="q8">feliz</li>
-    <li><input type="radio" name="q8">contente</li>
-    <li><input type="radio" name="q8">radiante</li>
-    <li><input type="radio" name="q8">alegre</li>
-  </div>
-  <div id="q9">
-    <label for="q9" class="questoes">Qual é o sujeito da frase: "O pássaro voou alto no céu"?</label>
-    <li><input type="radio" name="q9">O céu</li>
-    <li><input type="radio" name="q9">Alto</li>
-    <li><input type="radio" name="q9">O pássaro</li>
-    <li><input type="radio" name="q9">Voou</li>
-    <li><input type="radio" name="q9">No</li>
-  </div>
-  <div id="q10">
-    <label for="q10" class="questoes">Qual é o plural de "menino"?</label>
-    <li><input type="radio" name="q10">meninos</li>
-    <li><input type="radio" name="q10">meninas</li>
-    <li><input type="radio" name="q10">menino</li>
-    <li><input type="radio" name="q10">meninu</li>
-    <li><input type="radio" name="q10">menina</li>
-  </div>
-    </ul>
-  </div>
-  <input type="submit" value="Enviar">
-</form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste Básico</title>
+    <link rel="stylesheet" href="styleTesteBasico.css" />
+  </head>
+  <body>
+    <form action="./agradecimento.html">
+      <div class="todasQuestoes">
+        <ul>
+          <li>
+            <div id="q1">
+              <label for="q1a" class="questoes"
+                >Qual é o resultado da seguinte operação: 8 + 4 x 2?</label
+              > 
+              <input type="radio" name="q1" id="q1a" />16
+              <input type="radio" name="q1" id="q1b" />10
+              <input type="radio" name="q1" id="q1c" />18
+              <input type="radio" name="q1" id="q1d" />24
+              <input type="radio" name="q1" id="q1e" />12
+            </div>
+          </li>
+          <li>
+            <div id="q2">
+              <label for="q2" class="questoes">Qual é o dobro de 7?</label>
+              <input type="radio" name="q2" id="q2a" />10
+              <input type="radio" name="q2" id="q2b" />14
+              <input type="radio" name="q2" id="q2c" />21
+              <input type="radio" name="q2" id="q2d" />28
+              <input type="radio" name="q2" id="q2e" />35
+            </div>
+          </li>
+          <li>
+            <div id="q3">
+              <label for="q3" class="questoes"
+                >Qual é a raiz quadrada de 81?</label
+              >
+              <input type="radio" name="q3" id="q3a" />7
+              <input type="radio" name="q3" id="q3b" />8
+              <input type="radio" name="q3" id="q3c" />9
+              <input type="radio" name="q3" id="q3d" />6
+              <input type="radio" name="q3" id="q3e" />10
+            </div>
+          </li>
+          <li>
+            <div id="q4">
+              <label for="q4" class="questoes"
+                >Qual é o resultado da seguinte operação: 15 - 3 ÷ 3?</label
+              >
+              <input type="radio" name="q4" id="q4a" />6
+              <input type="radio" name="q4" id="q4b" />9
+              <input type="radio" name="q4" id="q4c" />12
+              <input type="radio" name="q4" id="q4d" />15
+              <input type="radio" name="q4" id="q4e" />3
+            </div>
+          </li>
+          <li>
+            <div id="q5">
+              <label for="q5" class="questoes"
+                >Qual é o próximo número na sequência: 2, 5, 8, 11, __?</label
+              >
+              <input type="radio" name="q5" id="q5a" />14
+              <input type="radio" name="q5" id="q5b" />15
+              <input type="radio" name="q5" id="q5c" />12
+              <input type="radio" name="q5" id="q5d" />13
+              <input type="radio" name="q5" id="q5e" />17
+            </div>
+          </li>
+          <li>
+            <div id="q6">
+              <label for="q6" class="questoes"
+                >Qual é o plural de "gato"?</label
+              >
+              <input type="radio" name="q6" id="q6a" />gato
+              <input type="radio" name="q6" id="q6b" />gatos
+              <input type="radio" name="q6" id="q6c" />gata
+              <input type="radio" name="q6" id="q6d" />gatas
+              <input type="radio" name="q6" id="q6e" />gatões
+            </div>
+          </li>
+          <li>
+            <div id="q7">
+              <label for="q7" class="questoes"
+                >Qual é o plural de "peixe"?</label
+              >
+              <input type="radio" name="q7" id="q7a" />peixe
+              <input type="radio" name="q7" id="q7b" />peixes
+              <input type="radio" name="q7" id="q7c" />peixinhos
+              <input type="radio" name="q7" id="q7d" />peixões
+              <input type="radio" name="q7" id="q7e" />peixis
+            </div>
+          </li>
+          <li>
+            <div id="q8">
+              <label for="q8" class="questoes"
+                >Qual é o antônimo de "alegre"?</label
+              >
+              <input type="radio" name="q8" id="q8a" />triste
+              <input type="radio" name="q8" id="q8b" />feliz
+              <input type="radio" name="q8" id="q8c" />contente
+              <input type="radio" name="q8" id="q8d" />radiante
+              <input type="radio" name="q8" id="q8e" />alegre
+            </div>
+          </li>
+          <li>
+            <div id="q9">
+              <label for="q9" class="questoes"
+                >Qual é o sujeito da frase: "O pássaro voou alto no céu"?</label
+              >
+              <input type="radio" name="q9" id="q9a" />O céu
+              <input type="radio" name="q9" id="q9b" />Alto
+              <input type="radio" name="q9" id="q9c" />O pássaro
+              <input type="radio" name="q9" id="q9d" />Voou
+              <input type="radio" name="q9" id="q9e" />No
+            </div>
+          </li>
+          <li>
+            <div id="q10">
+              <label for="q10" class="questoes"
+                >Qual é o plural de "menino"?</label
+              >
+              <input type="radio" name="q10" id="q10a" />meninos
+              <input type="radio" name="q10" id="q10b" />meninas
+              <input type="radio" name="q10" id="q10c" />menino
+              <input type="radio" name="q10" id="q10d" />meninu
+              <input type="radio" name="q10" id="q10e" />menina
+            </div>
+          </li>
+        </ul>
+      </div>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
 </html>

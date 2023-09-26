@@ -1,0 +1,73 @@
+/* Reset de estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+img {
+  width: 15%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+main {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-items: center;
+}
+
+nav a {
+  display: inline-block;
+  background-color: #15c4df;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #0da7be;
+}
+
+.col1 {
+  padding: 20px;
+}
+
+.col1 h2 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  background-color: #15c4df;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0da7be;
+}
