@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="indexStyle.css" />
+  </head>
+  <body>
+    <header>
+      <h1>UNINASSAU</h1>
+    </header>
+    <main>
+      <form action="./teste-basico.html" id="form">
+        <h2>Inscrição para teste</h2>
+
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome" id="nome" required />
+
+        <label for="nome">Digite seu email:</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="nome">Digite sua matricula:</label>
+        <input type="number" name="matricula" id="matricula" />
+
+        <label for="nome">Digite seu curso:</label>
+        <select id="curso">
+          <option>selecione o curso</option>
+          <option value="Administração">Administração</option>
+          <option value="Ciências da Computação">Ciências da Computação</option>
+          <option value="Engenharia Civil">Engenharia Civil</option>
+          <option value="Medicina">Medicina</option>
+          <option value="Psicologia">Psicologia</option>
+          <option value="Direito">Direito</option>
+          <option value="Economia">Economia</option>
+          <option value="Enfermagem">Enfermagem</option>
+          <option value="Física">Física</option>
+          <option value="Design Gráfico">Design Gráfico</option>
+        </select>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+  </body>
+</html>
